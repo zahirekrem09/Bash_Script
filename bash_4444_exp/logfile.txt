@@ -1,0 +1,311 @@
+Mar 23 13:09:18 ubuntu18-04 rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="871" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Mar 23 13:10:10 ubuntu18-04 anacron[5817]: Job `cron.daily' terminated
+Mar 23 13:10:10 ubuntu18-04 anacron[5817]: Normal exit (1 job run)
+Mar 23 13:10:54 ubuntu18-04 NetworkManager[917]: <info>  [1584952854.7305] connectivity: (wlp3s0) timed out
+Mar 23 13:12:32 ubuntu18-04 org.gnome.Shell.desktop[1686]: [2108:2114:0323/131232.420168:ERROR:ssl_client_socket_impl.cc(941)] handshake failed; returned -1, SSL error code 1, net_error -100
+Mar 23 13:14:40 ubuntu18-04 gnome-shell[1686]: Object .Gjs_AppIndicatorIconActor__1 (0x5620d2861840), has been already finalized. Impossible to set any property to it.
+Mar 23 13:14:40 ubuntu18-04 gnome-software[2513]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: == Stack trace for context 0x5620d262f330 ==
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #0 0x7ffee707a430 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f56dc5b5de0 @ 87)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #1 0x5620d29d8db0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f56a2ec2340 @ 58)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #2 0x7ffee707b010 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f56dc5b5de0 @ 71)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #3 0x7ffee707b0d0 b   self-hosted:915 (0x7f56dc5f12b8 @ 367)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #4 0x7ffee707b150 I   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f56dc5d3230 @ 386)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #5 0x5620d29d8d28 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f56a2eaff78 @ 22)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #6 0x7ffee707bd30 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f56dc5b5de0 @ 71)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #7 0x5620d29d8c80 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f56a2eaf5e8 @ 225)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #8 0x7ffee707c910 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f56dc5b5de0 @ 71)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #9 0x5620d29d8c08 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f56a2e87890 @ 37)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #10 0x5620d29d8b48 i   resource:///org/gnome/shell/ui/extensionSystem.js:82 (0x7f56dc45a120 @ 431)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #11 0x5620d29d8ac8 i   resource:///org/gnome/shell/ui/extensionSystem.js:344 (0x7f56dc45abc0 @ 13)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #12 0x7ffee707d610 b   self-hosted:251 (0x7f56dc5c3ab0 @ 223)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #13 0x5620d29d8a48 i   resource:///org/gnome/shell/ui/extensionSystem.js:343 (0x7f56dc45ab38 @ 64)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #14 0x5620d29d89c8 i   resource:///org/gnome/shell/ui/extensionSystem.js:361 (0x7f56dc45ac48 @ 87)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #15 0x7ffee707e400 I   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f56dc5d3230 @ 386)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #16 0x7ffee707eba0 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f56dc36b670 @ 254)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #17 0x7ffee707f880 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f56dc5b5de0 @ 71)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #18 0x5620d29d8888 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f56dc36b450 @ 40)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #19 0x7ffee7080460 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f56dc5b5de0 @ 71)
+Mar 23 13:14:40 ubuntu18-04 gnome-software[2513]: no app for changed ubuntu-dock@ubuntu.com
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #20 0x5620d29d87e0 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f56dc350bc0 @ 188)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #21 0x7ffee7081040 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f56dc5b5de0 @ 71)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #22 0x5620d29d8730 i   resource:///org/gnome/shell/ui/screenShield.js:1331 (0x7f56dc350c48 @ 391)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #23 0x7ffee7081c20 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f56dc5b5de0 @ 71)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #24 0x5620d29d86a0 i   resource:///org/gnome/shell/misc/systemActions.js:419 (0x7f56dc27a890 @ 96)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #25 0x7ffee7082800 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f56dc5b5de0 @ 71)
+Mar 23 13:14:40 ubuntu18-04 org.gnome.Shell.desktop[1686]: #26 0x5620d29d8620 i   resource:///org/gnome/shell/ui/status/system.js:286 (0x7f56dc275890 @ 53)
+Mar 23 13:14:54 ubuntu18-04 kernel: [ 8695.801584] wlp3s0: deauthenticated from 44:78:3e:30:ef:f4 (Reason: 3=DEAUTH_LEAVING)
+Mar 23 13:14:54 ubuntu18-04 wpa_supplicant[915]: wlp3s0: CTRL-EVENT-DISCONNECTED bssid=44:78:3e:30:ef:f4 reason=3
+Mar 23 13:14:54 ubuntu18-04 NetworkManager[917]: <warn>  [1584953094.3413] sup-iface[0x563eeb3fc980,wlp3s0]: connection disconnected (reason 3)
+Mar 23 13:14:54 ubuntu18-04 wpa_supplicant[915]: wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+Mar 23 13:14:54 ubuntu18-04 NetworkManager[917]: <info>  [1584953094.3768] device (wlp3s0): supplicant interface state: completed -> disconnected
+Mar 23 13:14:54 ubuntu18-04 gnome-shell[1110]: An active wireless connection, in infrastructure mode, involves no access point?
+Mar 23 13:14:54 ubuntu18-04 gnome-shell[1686]: An active wireless connection, in infrastructure mode, involves no access point?
+Mar 23 13:14:54 ubuntu18-04 NetworkManager[917]: <info>  [1584953094.4538] device (wlp3s0): supplicant interface state: disconnected -> scanning
+Mar 23 13:14:54 ubuntu18-04 org.gnome.Shell.desktop[1686]: [1992:2035:0323/131454.840796:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 23 13:15:09 ubuntu18-04 NetworkManager[917]: <warn>  [1584953109.7269] device (wlp3s0): link timed out.
+Mar 23 13:15:09 ubuntu18-04 NetworkManager[917]: <info>  [1584953109.7271] device (wlp3s0): state change: activated -> failed (reason 'ssid-not-found', sys-iface-state: 'managed')
+Mar 23 13:15:09 ubuntu18-04 NetworkManager[917]: <info>  [1584953109.7280] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar 23 13:15:09 ubuntu18-04 NetworkManager[917]: <info>  [1584953109.7286] manager: NetworkManager state is now DISCONNECTED
+Mar 23 13:15:09 ubuntu18-04 NetworkManager[917]: <warn>  [1584953109.7748] device (wlp3s0): Activation: failed for connection 'BvUc-U01KMTExRg'
+Mar 23 13:15:09 ubuntu18-04 dbus-daemon[898]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.15' (uid=0 pid=917 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 23 13:15:09 ubuntu18-04 NetworkManager[917]: <info>  [1584953109.7787] device (wlp3s0): state change: failed -> disconnected (reason 'none', sys-iface-state: 'managed')
+Mar 23 13:15:09 ubuntu18-04 kernel: [ 8711.247789] IPv6: ADDRCONF(NETDEV_UP): wlp3s0: link is not ready
+Mar 23 13:15:09 ubuntu18-04 avahi-daemon[896]: Withdrawing address record for fe80::831e:5203:b0db:f781 on wlp3s0.
+Mar 23 13:15:09 ubuntu18-04 avahi-daemon[896]: Leaving mDNS multicast group on interface wlp3s0.IPv6 with address fe80::831e:5203:b0db:f781.
+Mar 23 13:15:09 ubuntu18-04 avahi-daemon[896]: Interface wlp3s0.IPv6 no longer relevant for mDNS.
+Mar 23 13:15:09 ubuntu18-04 whoopsie[1158]: [13:15:09] Cannot reach: https://daisy.ubuntu.com
+Mar 23 13:15:09 ubuntu18-04 dbus-daemon[1039]: [session uid=121 pid=1039] Activating service name='ca.desrt.dconf' requested by ':1.13' (uid=121 pid=1110 comm="/usr/bin/gnome-shell " label="unconfined")
+Mar 23 13:15:09 ubuntu18-04 systemd[1]: Starting Network Manager Script Dispatcher Service...
+Mar 23 13:15:09 ubuntu18-04 dbus-daemon[1039]: [session uid=121 pid=1039] Successfully activated service 'ca.desrt.dconf'
+Mar 23 13:15:09 ubuntu18-04 dbus-daemon[898]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 23 13:15:09 ubuntu18-04 nm-dispatcher: req:1 'down' [wlp3s0]: new request (1 scripts)
+Mar 23 13:15:09 ubuntu18-04 systemd[1]: Started Network Manager Script Dispatcher Service.
+Mar 23 13:15:09 ubuntu18-04 nm-dispatcher: req:1 'down' [wlp3s0]: start running ordered scripts...
+Mar 23 13:15:09 ubuntu18-04 gnome-shell[1110]: An active wireless connection, in infrastructure mode, involves no access point?
+Mar 23 13:15:09 ubuntu18-04 nm-dispatcher: req:2 'connectivity-change': new request (1 scripts)
+Mar 23 13:15:14 ubuntu18-04 spike[444]: This is my spike
+Mar 23 13:15:09 ubuntu18-04 gnome-shell[1110]: An active wireless connection, in infrastructure mode, involves no access point?
+Mar 23 13:15:09 ubuntu18-04 nm-dispatcher: req:2 'connectivity-change': start running ordered scripts...
+Mar 23 13:16:09 ubuntu18-04 spike[444]: This is my spike number 2
+Mar 23 13:15:09 ubuntu18-04 soundy[444]: soundy is a musician
+Mar 23 13:15:09 ubuntu18-04 gnome-shell[1110]: An active wireless connection, in infrastructure mode, involves no access point?
+Mar 23 13:15:09 ubuntu18-04 gnome-shell[1110]: message repeated 2 times: [ An active wireless connection, in infrastructure mode, involves no access point?]
+Mar 23 13:15:09 ubuntu18-04 gnome-shell[1686]: An active wireless connection, in infrastructure mode, involves no access point?
+Mar 23 13:15:09 ubuntu18-04 ekrem[444]: there is a problem in here
+Mar 23 14:15:09 ubuntu18-04 brazil[444]: This is nice country
+Mar 23 13:15:09 ubuntu18-04 gnome-shell[1686]: An active wireless connection, in infrastructure mode, involves no access point?
+Mar 23 13:15:09 ubuntu18-04 avahi-daemon[896]: Withdrawing address record for 192.168.43.234 on wlp3s0.
+Mar 23 13:15:09 ubuntu18-04 france[444]: come visit me
+Mar 23 13:15:09 ubuntu18-04 gnome-shell[1686]: An active wireless connection, in infrastructure mode, involves no access point?
+Mar 23 13:15:09 ubuntu18-04 avahi-daemon[896]: Leaving mDNS multicast group on interface wlp3s0.IPv4 with address 192.168.43.234.
+Mar 23 13:15:09 ubuntu18-04 gnome-shell[1686]: An active wireless connection, in infrastructure mode, involves no access point?
+Mar 23 13:15:09 ubuntu18-04 avahi-daemon[896]: Interface wlp3s0.IPv4 no longer relevant for mDNS.
+Mar 23 13:15:09 ubuntu18-04 england[444]: the island
+Mar 23 13:15:09 ubuntu18-04 liza[444]: she is a great developer
+Mar 23 13:15:09 ubuntu18-04 gnome-shell[1686]: An active wireless connection, in infrastructure mode, involves no access point?
+Mar 23 13:15:09 ubuntu18-04 soundy[444]: soundy is a musician
+Mar 23 13:15:09 ubuntu18-04 NetworkManager[917]: <info>  [1584953109.8549] dhcp4 (wlp3s0): canceled DHCP transaction, DHCP client pid 5415
+Mar 23 16:15:09 ubuntu18-04 voiceful[444]: voiceful is not a good musician
+Mar 23 13:15:09 ubuntu18-04 NetworkManager[917]: <info>  [1584953109.8550] dhcp4 (wlp3s0): state changed bound -> done
+Mar 23 13:15:09 ubuntu18-04 gsd-sharing[1801]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.
+Mar 23 13:15:09 ubuntu18-04 gsd-sharing[1801]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit rygel.service not loaded.
+Mar 23 13:15:09 ubuntu18-04 gsd-sharing[1801]: Failed to StopUnit service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-remote-desktop.service not loaded.
+Mar 23 13:15:13 ubuntu18-04 NetworkManager[917]: <info>  [1584953113.8954] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Mar 23 13:15:13 ubuntu18-04 NetworkManager[917]: <info>  [1584953113.8956] device (wlp3s0): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Mar 23 13:15:13 ubuntu18-04 NetworkManager[917]: <info>  [1584953113.8975] device (ttyACM0): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Mar 23 13:15:13 ubuntu18-04 wpa_supplicant[915]: nl80211: deinit ifname=p2p-dev-wlp3s0 disabled_11b_rates=0
+Mar 23 13:15:13 ubuntu18-04 NetworkManager[917]: <info>  [1584953113.8976] manager: NetworkManager state is now ASLEEP
+Mar 23 13:15:13 ubuntu18-04 gnome-shell[1110]: Screen lock is locked down, not locking
+Mar 23 13:15:13 ubuntu18-04 gnome-shell[1110]: Failed to set power save mode for output eDP-1: Permission denied
+Mar 23 13:15:13 ubuntu18-04 gsd-color[1210]: failed to set screen _ICC_PROFILE: Failed to open file “/home/ekrem/.local/share/icc/edid-7ef05e4cfcbbd79c05c482fd66b8c730.icc”: Permission denied
+Apr 26 13:15:13 ubuntu18-04 systemd[1]: Reached target Sleep.
+Mar 23 02:15:39 ubuntu18-04 football[444]: it is very popular
+Mar 23 13:15:09 ubuntu18-04 soundy[444]: soundy is not feeling good
+Mar 24 13:08:09 ubuntu18-04 crowded[444]: our city is crowded
+Mar 23 13:15:13 ubuntu18-04 systemd[1]: Starting Suspend...
+Mar 23 13:15:13 ubuntu18-04 systemd-sleep[6270]: Suspending system...
+Mar 23 06:15:09 ubuntu18-04 sea[444]: sea is beautiful
+Mar 23 13:15:13 ubuntu18-04 kernel: [ 8715.431373] PM: suspend entry (deep)
+Mar 23 13:15:14 ubuntu18-04 wpa_supplicant[915]: nl80211: deinit ifname=wlp3s0 disabled_11b_rates=0
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8715.431375] PM: Syncing filesystems ... done.
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8716.068986] Freezing user space processes ... (elapsed 0.005 seconds) done.
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8716.074185] OOM killer disabled.
+Mar 23 06:24:09 ubuntu18-04 lake[444]: lake looks dirty
+Mar 23 16:15:03 ubuntu18-04 couch[444]: He sat on the couch
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8716.074186] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8716.076006] Suspending console(s) (use no_console_suspend to debug)
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8716.208215] sd 1:0:0:0: [sda] Synchronizing SCSI cache
+Mar 23 06:15:09 ubuntu18-04 js[444]: I dont like javascript
+Mar 05 20:45:09 ubuntu18-04 python[444]: python is cool
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8716.280670] sd 1:0:0:0: [sda] Stopping disk
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8716.972981] [drm] probing gen 2 caps for device 8086:9d10 = 1724043/e
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8716.972985] [drm] PCIE gen 3 link speeds already enabled
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8716.983701] [drm] PCIE GART of 2048M enabled (table at 0x0000000000040000).
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8716.983817] radeon 0000:01:00.0: WB enabled
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8716.983819] radeon 0000:01:00.0: fence driver on ring 0 use gpu addr 0x0000000080000c00 and cpu addr 0x00000000937d30bd
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8716.983820] radeon 0000:01:00.0: fence driver on ring 1 use gpu addr 0x0000000080000c04 and cpu addr 0x0000000033ff201d
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8716.983820] radeon 0000:01:00.0: fence driver on ring 2 use gpu addr 0x0000000080000c08 and cpu addr 0x0000000085099f63
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8716.983821] radeon 0000:01:00.0: fence driver on ring 3 use gpu addr 0x0000000080000c0c and cpu addr 0x000000007a2cf063
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8716.983822] radeon 0000:01:00.0: fence driver on ring 4 use gpu addr 0x0000000080000c10 and cpu addr 0x00000000f8c9bd02
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8717.172693] [drm] ring test on 0 succeeded in 1 usecs
+Mar 23 06:15:09 ubuntu18-04 mountain[444]: it looks snowy
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8717.172697] [drm] ring test on 1 succeeded in 1 usecs
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8717.172701] [drm] ring test on 2 succeeded in 1 usecs
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8717.172709] [drm] ring test on 3 succeeded in 4 usecs
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8717.172715] [drm] ring test on 4 succeeded in 4 usecs
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8717.172804] [drm] ib test on ring 0 succeeded in 0 usecs
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8717.172862] [drm] ib test on ring 1 succeeded in 0 usecs
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8717.172887] [drm] ib test on ring 2 succeeded in 0 usecs
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8717.172900] [drm] ib test on ring 3 succeeded in 0 usecs
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8717.172911] [drm] ib test on ring 4 succeeded in 0 usecs
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8717.972597] ACPI: EC: interrupt blocked
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.064601] ACPI: Preparing to enter system sleep state S3
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.066041] ACPI: EC: event blocked
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.066041] ACPI: EC: EC stopped
+Mar 23 06:15:09 ubuntu18-04 telephone[444]: the telephone rang
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.066042] PM: Saving platform NVS memory
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.066060] Disabling non-boot CPUs ...
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.080190] IRQ 127: no longer affine to CPU1
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.081213] smpboot: CPU 1 is now offline
+Mar 22 06:15:35 ubuntu18-04 atom[444]: it is good and useful
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.104379] IRQ fixup: irq 129 move in progress, old vector 45
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.104394] IRQ 129: no longer affine to CPU2
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.105965] smpboot: CPU 2 is now offline
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.128100] IRQ 123: no longer affine to CPU3
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.128102] IRQ 124: no longer affine to CPU3
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.129126] smpboot: CPU 3 is now offline
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 6560.783072] [Firmware Bug]: TSC ADJUST differs: CPU0 0 --> -75847496. Restoring
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.132100] ACPI: Low-level resume complete
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.132218] ACPI: EC: EC started
+Mar 23 06:15:09 ubuntu18-04 john[444]: he looks tired now
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.132218] PM: Restoring platform NVS memory
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.134489] Enabling non-boot CPUs ...
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.134530] x86: Booting SMP configuration:
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.134530] smpboot: Booting Node 0 Processor 1 APIC 0x2
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.134919] microcode: sig=0x806e9, pf=0x80, revision=0x42
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.136509]  cache: parent cpu1 should not be sleeping
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.136677] CPU1 is up
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.136697] smpboot: Booting Node 0 Processor 2 APIC 0x1
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.137035] microcode: sig=0x806e9, pf=0x80, revision=0x84
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.137114]  cache: parent cpu2 should not be sleeping
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.137438] CPU2 is up
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.137477] smpboot: Booting Node 0 Processor 3 APIC 0x3
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.137861]  cache: parent cpu3 should not be sleeping
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.138006] CPU3 is up
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.141025] ACPI: Waking up from system sleep state S3
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.147770] ACPI: EC: interrupt unblocked
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.764447] ACPI: EC: event unblocked
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.765429] sd 1:0:0:0: [sda] Starting disk
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.776067] [drm] probing gen 2 caps for device 8086:9d10 = 1724043/e
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.776069] [drm] PCIE gen 3 link speeds already enabled
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.785525] [drm] PCIE GART of 2048M enabled (table at 0x0000000000040000).
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.785672] radeon 0000:01:00.0: WB enabled
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.785674] radeon 0000:01:00.0: fence driver on ring 0 use gpu addr 0x0000000080000c00 and cpu addr 0x00000000937d30bd
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.785675] radeon 0000:01:00.0: fence driver on ring 1 use gpu addr 0x0000000080000c04 and cpu addr 0x0000000033ff201d
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.785675] radeon 0000:01:00.0: fence driver on ring 2 use gpu addr 0x0000000080000c08 and cpu addr 0x0000000085099f63
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.785676] radeon 0000:01:00.0: fence driver on ring 3 use gpu addr 0x0000000080000c0c and cpu addr 0x000000007a2cf063
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.785676] radeon 0000:01:00.0: fence driver on ring 4 use gpu addr 0x0000000080000c10 and cpu addr 0x00000000f8c9bd02
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.974216] [drm] ring test on 0 succeeded in 1 usecs
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.974220] [drm] ring test on 1 succeeded in 1 usecs
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.974223] [drm] ring test on 2 succeeded in 1 usecs
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.974231] [drm] ring test on 3 succeeded in 4 usecs
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.974237] [drm] ring test on 4 succeeded in 4 usecs
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.974266] [drm] ib test on ring 0 succeeded in 0 usecs
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.974287] [drm] ib test on ring 1 succeeded in 0 usecs
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.974307] [drm] ib test on ring 2 succeeded in 0 usecs
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.974319] [drm] ib test on ring 3 succeeded in 0 usecs
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.974329] [drm] ib test on ring 4 succeeded in 0 usecs
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8718.976867] r8169 0000:02:00.0 enp2s0: link down
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8719.055524] usb 1-8: reset full-speed USB device number 4 using xhci_hcd
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8719.078572] ata3: SATA link down (SStatus 4 SControl 300)
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8719.078722] ata1: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8719.083135] ata1.00: configured for UDMA/133
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8719.335882] usb 1-7: reset high-speed USB device number 3 using xhci_hcd
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8719.611790] usb 1-9: reset high-speed USB device number 5 using xhci_hcd
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8719.991647] [drm] RC6 on
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8720.635301] ata2: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8720.639489] ata2.00: configured for UDMA/100
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.729388] acpi LNXPOWER:15: Turning OFF
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.729528] acpi LNXPOWER:14: Turning OFF
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.729664] acpi LNXPOWER:13: Turning OFF
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.729797] acpi LNXPOWER:12: Turning OFF
+Mar 23 06:15:09 ubuntu18-04 elephant[444]: A big animal is singing
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.729929] acpi LNXPOWER:11: Turning OFF
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.730062] acpi LNXPOWER:10: Turning OFF
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.730195] acpi LNXPOWER:0f: Turning OFF
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.730328] acpi LNXPOWER:0e: Turning OFF
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.730472] acpi LNXPOWER:0d: Turning OFF
+Mar 23 06:15:09 ubuntu18-04 volleyball[444]: let's play
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.730587] acpi LNXPOWER:0c: Turning OFF
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.730701] acpi LNXPOWER:0b: Turning OFF
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.730912] acpi LNXPOWER:0a: Turning OFF
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.731029] acpi LNXPOWER:09: Turning OFF
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.731142] acpi LNXPOWER:08: Turning OFF
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.731257] acpi LNXPOWER:07: Turning OFF
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.731371] acpi LNXPOWER:06: Turning OFF
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.731487] acpi LNXPOWER:05: Turning OFF
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.731602] acpi LNXPOWER:04: Turning OFF
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.731716] acpi LNXPOWER:03: Turning OFF
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.731832] acpi LNXPOWER:02: Turning OFF
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.731897] acpi LNXPOWER:01: Turning OFF
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.732007] OOM killer enabled.
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.732009] Restarting tasks ...
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.743248] usb 1-1: USB disconnect, device number 6
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.749063] done.
+Mar 23 17:32:44 ubuntu18-04 gvfsd[1650]: PTP: reading event an error 0x05 occurred
+Mar 23 17:32:44 ubuntu18-04 bluetoothd[874]: Endpoint unregistered: sender=:1.80 path=/MediaEndpoint/A2DPSource
+Mar 23 17:32:44 ubuntu18-04 systemd[1]: Starting Load/Save RF Kill Switch Status...
+Mar 23 17:32:44 ubuntu18-04 bluetoothd[874]: Endpoint unregistered: sender=:1.80 path=/MediaEndpoint/A2DPSink
+Mar 23 17:32:44 ubuntu18-04 NetworkManager[917]: <info>  [1584968564.6160] bluez5: NAP: removed interface 58:00:E3:DF:A9:1A
+Mar 23 17:32:44 ubuntu18-04 systemd-rfkill[6350]: Failed to open device rfkill5: No such device
+Mar 23 17:32:44 ubuntu18-04 systemd[1]: bluetooth.target: Unit not needed anymore. Stopping.
+Mar 23 17:32:44 ubuntu18-04 systemd[1]: Stopped target Bluetooth.
+Mar 23 17:32:44 ubuntu18-04 systemd-sleep[6270]: System resumed.
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.787551] PM: suspend exit
+Mar 23 17:32:44 ubuntu18-04 systemd[1]: Reached target Bluetooth.
+Mar 23 06:15:09 ubuntu18-04 sea[444]: sea is beautiful
+Mar 23 17:32:44 ubuntu18-04 upowerd[1122]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1
+Mar 23 17:32:44 ubuntu18-04 upowerd[1122]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.1
+Mar 23 17:32:44 ubuntu18-04 upowerd[1122]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.1
+Mar 23 17:32:44 ubuntu18-04 upowerd[1122]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.2
+Mar 23 17:32:44 ubuntu18-04 upowerd[1122]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0
+Mar 23 17:32:44 ubuntu18-04 upowerd[1122]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0
+Mar 23 17:32:44 ubuntu18-04 upowerd[1122]: unhandled action 'unbind' on /sys/devices/pci0000:00/0000:00:14.0/usb1/1-1
+Mar 23 17:32:44 ubuntu18-04 systemd[1]: Started Load/Save RF Kill Switch Status.
+Mar 23 17:32:44 ubuntu18-04 upowerd[1122]: unhandled action 'bind' on /sys/devices/pci0000:00/0000:00:14.0/usb1/1-8/1-8:1.0
+Mar 23 17:32:44 ubuntu18-04 gnome-shell[1110]: Failed to read EDID from 'eDP-1': No such file or directory
+Mar 23 17:32:44 ubuntu18-04 gnome-shell[1110]: Failed to read EDID from 'eDP-1': No such file or directory
+Mar 23 17:32:44 ubuntu18-04 pulseaudio[1163]: W: [pulseaudio] sink-input.c: Failed to create sink input: sink is suspended.
+Mar 23 17:32:44 ubuntu18-04 gnome-shell[1110]: Failed to read EDID from 'eDP-1': No such file or directory
+Mar 23 17:32:44 ubuntu18-04 gsd-color[1210]: failed to set screen _ICC_PROFILE: Failed to open file “/home/aliakbar/.local/share/icc/edid-7ef05e4cfcbbd79c05c482fd66b8c730.icc”: Permission denied
+Mar 23 17:32:44 ubuntu18-04 systemd-sleep[6270]: /dev/sda:
+Mar 23 17:32:44 ubuntu18-04 systemd-sleep[6270]:  setting Advanced Power Management level to 0x80 (128)
+Mar 23 17:32:44 ubuntu18-04 systemd-sleep[6270]:  APM_level#011= 128
+Mar 23 17:32:44 ubuntu18-04 bluetoothd[874]: Failed to set mode: Blocked through rfkill (0x12)
+Mar 23 17:32:44 ubuntu18-04 bluetoothd[874]: Endpoint registered: sender=:1.80 path=/MediaEndpoint/A2DPSource
+Mar 23 17:32:44 ubuntu18-04 bluetoothd[874]: Endpoint registered: sender=:1.80 path=/MediaEndpoint/A2DPSink
+Mar 23 17:32:44 ubuntu18-04 NetworkManager[917]: <info>  [1584968564.7274] bluez5: NAP: added interface 58:00:E3:DF:A9:1A
+Mar 23 17:32:44 ubuntu18-04 systemd-sleep[6270]: /dev/sda:
+Mar 23 17:32:44 ubuntu18-04 systemd-sleep[6270]:  setting standby to 36 (3 minutes)
+Mar 23 17:32:44 ubuntu18-04 systemd[1]: Started Suspend.
+Mar 23 17:32:44 ubuntu18-04 systemd[1]: sleep.target: Unit not needed anymore. Stopping.
+Mar 23 17:32:44 ubuntu18-04 systemd[1]: Stopped target Sleep.
+Mar 23 17:32:44 ubuntu18-04 systemd[1]: Reached target Suspend.
+Mar 23 17:32:44 ubuntu18-04 systemd[1]: suspend.target: Unit not needed anymore. Stopping.
+Mar 23 17:32:44 ubuntu18-04 systemd[1]: Stopped target Suspend.
+Mar 23 17:32:44 ubuntu18-04 NetworkManager[917]: <info>  [1584968564.7375] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+Mar 23 17:32:44 ubuntu18-04 NetworkManager[917]: <info>  [1584968564.7376] device (enp2s0): state change: unavailable -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.883777] IPv6: ADDRCONF(NETDEV_UP): enp2s0: link is not ready
+Mar 23 17:32:44 ubuntu18-04 NetworkManager[917]: <info>  [1584968564.7512] device (enp2s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Mar 23 17:32:44 ubuntu18-04 NetworkManager[917]: <info>  [1584968564.7978] device (wlp3s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.929518] r8169 0000:02:00.0 enp2s0: link down
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.929652] IPv6: ADDRCONF(NETDEV_UP): enp2s0: link is not ready
+Mar 23 17:32:44 ubuntu18-04 kernel: [ 8721.930333] IPv6: ADDRCONF(NETDEV_UP): wlp3s0: link is not ready
+Mar 23 17:32:44 ubuntu18-04 bluetoothd[874]: Failed to set mode: Blocked through rfkill (0x12)
+Mar 23 17:32:44 ubuntu18-04 gnome-shell[1110]: Failed to set power save mode for output eDP-1: Permission denied
+Mar 23 17:32:44 ubuntu18-04 gnome-shell[1110]: Error setting property 'Powered' on interface org.bluez.Adapter1: GDBus.Error:org.bluez.Error.Blocked: Blocked through rfkill (g-io-error-quark, 36)
+Mar 23 17:32:45 ubuntu18-04 bluetoothd[874]: Failed to set mode: Blocked through rfkill (0x12)
+Mar 23 17:32:45 ubuntu18-04 gnome-shell[1686]: Error setting property 'Powered' on interface org.bluez.Adapter1: GDBus.Error:org.bluez.Error.Blocked: Blocked through rfkill (g-io-error-quark, 36)
+Mar 23 17:32:45 ubuntu18-04 NetworkManager[917]: <info>  [1584968565.5796] manager: NetworkManager state is now DISCONNECTED
+Mar 23 17:32:45 ubuntu18-04 kernel: [ 8722.711242] IPv6: ADDRCONF(NETDEV_UP): wlp3s0: link is not ready
+Mar 23 17:32:45 ubuntu18-04 wpa_supplicant[915]: dbus: fill_dict_with_properties dbus_interface=fi.w1.wpa_supplicant1.Interface dbus_property=Stations getter failed
+Mar 23 17:32:45 ubuntu18-04 wpa_supplicant[915]: dbus: wpa_dbus_get_object_properties: failed to get object properties: (none) none
+Mar 23 17:32:45 ubuntu18-04 wpa_supplicant[915]: dbus: Failed to construct signal
+Mar 23 17:32:45 ubuntu18-04 wpa_supplicant[915]: dbus: fill_dict_with_properties dbus_interface=fi.w1.wpa_supplicant1.Interface dbus_property=Stations getter failed
+Mar 23 17:32:45 ubuntu18-04 NetworkManager[917]: <info>  [1584968565.6405] device (wlp3s0): supplicant interface state: starting -> ready
+Mar 23 17:32:45 ubuntu18-04 NetworkManager[917]: <info>  [1584968565.6406] device (wlp3s0): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Mar 23 17:32:45 ubuntu18-04 kernel: [ 8722.773085] IPv6: ADDRCONF(NETDEV_UP): wlp3s0: link is not ready
+Mar 23 17:32:47 ubuntu18-04 ModemManager[888]: <info>  Couldn't check support for device at '/sys/devices/pci0000:00/0000:00:1c.4/0000:02:00.0': not supported by any plugin
+Mar 23 17:32:47 ubuntu18-04 ModemManager[888]: <info>  Couldn't check support for device at '/sys/devices/pci0000:00/0000:00:1c.5/0000:03:00.0': not supported by any plugin
+Mar 23 17:32:47 ubuntu18-04 kernel: [ 8725.102435] usb 1-1: new high-speed USB device number 7 using xhci_hcd
+Mar 23 17:32:48 ubuntu18-04 org.gnome.Shell.desktop[1686]: [1992:2035:0323/173248.935767:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
+Mar 23 17:32:53 ubuntu18-04 gnome-software[2513]: no app for changed ubuntu-dock@ubuntu.com
+Mar 23 17:32:53 ubuntu18-04 gnome-software[2513]: no app for changed ubuntu-appindicators@ubuntu.com
+Mar 23 17:32:53 ubuntu18-04 gvfsd-metadata[3265]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar 23 17:32:53 ubuntu18-04 gvfsd-metadata[3265]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Mar 23 17:32:53 ubuntu18-04 gnome-shell[1686]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.70/org/ayatana/NotificationItem/software_update_available
+Mar 23 17:33:01 ubuntu18-04 dbus-daemon[1568]: [session uid=1000 pid=1568] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.153' (uid=1000 pid=6435 comm="/usr/bin/gnome-terminal.real " label="unconfined")
+Mar 23 17:33:01 ubuntu18-04 systemd[1532]: Starting GNOME Terminal Server...
+Mar 23 17:33:01 ubuntu18-04 dbus-daemon[1568]: [session uid=1000 pid=1568] Successfully activated service 'org.gnome.Terminal'
+Mar 23 17:33:01 ubuntu18-04 systemd[1532]: Started GNOME Terminal Server.

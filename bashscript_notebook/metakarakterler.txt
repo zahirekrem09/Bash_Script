@@ -1,0 +1,15 @@
+#  ; yan yana komut yazılmasını saglar.
+#  * sayı belirtmeksizin tum elemenalra bakar.
+ornek ;
+ls -l u*  u ile baslayan tum dosyaları listeler.
+
+#  ? herrhangi bir karakteri ifade eder.
+
+# []  ls -l /etc/[de]*  de ile baslayan doyaları listeler.
+
+# [0-9] 0 ile 9 arasında deger alıe aritmetik islemşlerde kullanlıyor.
+
+#  ^ ile baslayanlar  ls -l ^u*  u ile baslayanlar
+#                   ls -l [^u]*  u ile baslamayanları 
+
+#`komut` 'ifade' "ifade komut" 
